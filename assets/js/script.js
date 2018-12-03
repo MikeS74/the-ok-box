@@ -1,5 +1,7 @@
+//Storing ID in a variable
 var a = document.getElementById("audio1");
 
+//Function for audio onclick
 function playAudio1() {
     a.play();
 }
