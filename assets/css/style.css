@@ -5,3 +5,17 @@ body {
     background-position: top;
     background-size: cover;
 }
+
+button {
+    background-color: silver;
+    border: none;
+    width: 12vw;
+}
+
+.buttons-container {
+    display: block;
+    position: relative;
+    top: 100px;
+    width: 38vw;
+    margin: 0 auto;
+}
