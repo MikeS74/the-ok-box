@@ -1,0 +1,7 @@
+body {
+    background-color: black;
+    background-image: url(../img/ok-box-header1.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
