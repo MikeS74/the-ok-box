@@ -1,9 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron:900');
+
 body {
     background-color: black;
     background-image: url(../img/ok-box-header1.png);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
+}
+
+.title {
+    font-family: 'Orbitron', sans-serif; 
+    color: lightgray;
+    font-size: 1.5em;
+    width: 2.5em;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 15px;
 }
 
 button {
