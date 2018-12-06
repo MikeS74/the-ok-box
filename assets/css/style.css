@@ -57,9 +57,9 @@ button:active {
 .black-vents {
     margin: 0 auto;
     position: relative;
-    bottom: -100px;
-    width: 200px;
-    height: 150px;
+    bottom: -95px;
+    width: 175px;
+    height: 125px;
     background-image: url(../img/fake-screen.jpg);
     background-repeat: no-repeat;
     background-position: center;
