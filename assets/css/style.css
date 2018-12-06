@@ -1,13 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Orbitron:900');
 @import url('https://fonts.googleapis.com/css?family=Francois+One');
 
+html {
+    background-image: url(../img/metal-bkgd.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+
 body {
     width: 100%;
-    background-color: #313131;
     background-image: url(../img/ok-box-header1.jpg);
     background-repeat: no-repeat;
     background-position: top;
-    background-size: contain;
+    background-size: 100%;
+    margin: 0 auto;
 }
 
 .title {
@@ -32,7 +38,7 @@ button {
     border-width: 3px;
     width: 60px;
     height: 50px;
-    margin: 5px 3px;
+    margin: 3px 1px 3px 5px;
 }
 
 button:focus {
@@ -50,18 +56,47 @@ button:active {
     display: block;
     position: relative;
     top: 80px;
-    width: 278px;
+    width: 280px;
     margin: 0 auto;
+    background-color: #333333;
+    border-radius: 3px;
 }
 
 .black-vents {
     margin: 0 auto;
     position: relative;
     bottom: -95px;
-    width: 175px;
-    height: 125px;
+    width: 220px;
+    height: 105px;
     background-image: url(../img/fake-screen.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: 95%;
+    background-color: black;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.small-knob {
+    background-image: url(../img/small-knob.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 95%;
+    position: relative;
+    left: 10px;
+    width: 60px;
+    height: 70px;
+}
+
+.power-switch {
+    background-image: url(../img/power-switch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 95%;
+    position: relative;
+    float: right;
+    right: 20px;
+    bottom: 60px;
+    width: 40px;
+    height: 55px;
 }
