@@ -62,10 +62,21 @@ button:active {
     border-radius: 3px;
 }
 
-.black-vents {
+.lower-graphics {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    width: 90%;
     margin: 0 auto;
     position: relative;
     bottom: -95px;
+    left: -5px;
+    
+}
+
+.fake-screen {
+    margin: 0 auto;
+    position: relative;
     width: 220px;
     height: 105px;
     background-image: url(../img/fake-screen.jpg);
@@ -83,7 +94,7 @@ button:active {
     background-position: center;
     background-size: 95%;
     position: relative;
-    left: 10px;
+    bottom: 25px;
     width: 60px;
     height: 70px;
 }
@@ -94,9 +105,8 @@ button:active {
     background-position: center;
     background-size: 95%;
     position: relative;
-    float: right;
-    right: 20px;
-    bottom: 60px;
+    bottom: 30px;
     width: 40px;
     height: 55px;
+    margin: 5px
 }
