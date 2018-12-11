@@ -7,7 +7,7 @@ html {
     background-size: cover;
 }
 
-body {
+.bkgd2 {
     width: 100%;
     background-image: url(../img/ok-box-header1.jpg);
     background-repeat: no-repeat;
