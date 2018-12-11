@@ -18,8 +18,8 @@ window.onload = function () {
     }
 };
 
-// var audio = new Audio('audio_file.mp3');
-// audio.play();
+//var audio = new Audio('./assets/audio/ok01.mp3');
+//var a = audio;
 
 //Function for audio onclick
 function playAudio(val) {
