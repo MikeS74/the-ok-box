@@ -18,6 +18,20 @@ window.onload = function () {
     }
 };
 
+//Text for creating audio elements
+var elementText1 = '<audio id="audio';
+var elementText2 = '" src="assets/audio/ok';
+var elementText3 = '.mp3"></audio>';
+
+//Audio div selector
+var audioDiv = document.querySelectorAll("#audio-div");
+
+//Loop creating 20 audio elements
+for (var i = 1; i < 21; i++) {
+    var newAudioEl = elementText1 + i + elementText2 + i + elementText3;
+    audioDiv[0].insertAdjacentHTML("afterbegin", newAudioEl);
+}
+
 //var audio = new Audio('./assets/audio/ok01.mp3');
 //var a = audio;
 
