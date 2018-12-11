@@ -22,18 +22,23 @@ window.onload = function () {
 var elementText1 = '<audio id="audio';
 var elementText2 = '" src="assets/audio/ok';
 var elementText3 = '.mp3"></audio>';
-
 //Audio div selector
 var audioDiv = document.querySelectorAll("#audio-div");
 
-//Loop creating 20 audio elements
+//Text for creating button elements
+var elementText4 = '<button value="';
+var elementText5 = '" onclick="playAudio(this.value)" type="button">';
+var elementText6 = '</button>';
+//Buttons container selector
+var buttonsCont = document.querySelectorAll(".buttons-container");
+
+//Loop creating 20 audio elements & buttons
 for (var i = 1; i < 21; i++) {
     var newAudioEl = elementText1 + i + elementText2 + i + elementText3;
     audioDiv[0].insertAdjacentHTML("afterbegin", newAudioEl);
+    var newButtons = elementText4 + i + elementText5 + i + elementText6;
+    buttonsCont[0].insertAdjacentHTML("beforeend", newButtons);
 }
-
-//var audio = new Audio('./assets/audio/ok01.mp3');
-//var a = audio;
 
 //Function for audio onclick
 function playAudio(val) {
