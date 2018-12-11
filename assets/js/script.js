@@ -42,7 +42,7 @@ for (var i = 1; i < 21; i++) {
 
 //Function for audio onclick
 function playAudio(val) {
-    //Storing ID in a variable
+    //Storing clicked audio element in variable
     var a = document.getElementById("audio" + val);
     a.currentTime = 0;
     a.play();
