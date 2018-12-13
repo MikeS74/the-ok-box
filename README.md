@@ -1,5 +1,4 @@
 ## The OK! Box
-___
 
 https://mikes74.github.io/the-ok-box/
 ___
